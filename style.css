@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*ウェブフォント読み込み*/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Nunito|Varela+Round&display=swap');
+/*全体設定*/
+body {
+  width: 90%;
+  max-width: 432px;
+  margin: 0 auto;
+  color: #808080;
+  background: #FFF;
+  font-family: 'Nunito', 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
+  font-size: 13px;
+}
+/*基本リンク設定*/
+a {
+  color: #6D778D;
+  text-decoration: none;
+}
+/*文字選択時設定*/
+::-moz-selection {
+  color: #C4BEB3;
+  background: transparent;
+}
+
+::selection {
+  color: #C4BEB3;
+  background: transparent;
+}
+/*サイトタイトル設定*/
+h1 {
+  margin-top: 30px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+}
+/*補足設定*/
+aside {
+  width: 95%;
+  margin: 15px auto;
+  padding: 10px;
+  background: #F5F5F5;
+  text-align: center;
+}
+/*ナビゲーション設定*/
+nav ul {
+  margin-top: 30px;
+  font-size: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 20%;
+  margin: 5px 2.5%;
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+nav ul li a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #FFF;
+  font-size: 30px;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+nav ul li h2 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: normal;
+  font-size: 15px;
+}
+/*各リンク背景色設定*/
+.orange {
+  background: #EDB7B2;
+}
+
+.pink {
+  background: #EDB2E8;
+}
+
+.purple {
+  background: #B7B2ED;
+}
+
+.skyblue {
+  background: #B1E8ED;
+}
+
+/*できるかわからん*/
+p {
+  width: 80%;
+  margin: 15px auto;
+  padding: 10px;
+  text-align: center;
+}
+
